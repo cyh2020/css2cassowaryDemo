@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "es2020",
+		"noImplicitAny": true,
+		"outDir": "dist",
+		"declaration": true,
+		"moduleResolution": "node",
+		"declarationMap": true
+	},
+	"include": ["./ts/*.ts", "ts/graphs/text.ts"]
+}
